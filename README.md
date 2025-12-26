@@ -24,9 +24,3 @@ Links work for AWS cloudformation resources and Serverless resources only.
 ## Known Issues
 
 This extension is activated for all `json` and `yaml` file types which will cause excessive activations. Additionally there isn't a limit to number of lines scanned. This could result in slow down when interacting with large files which are now cloudformation templates.
-
-## Release Notes
-
-### 0.0.1
-
-Initial Release
