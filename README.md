@@ -2,7 +2,6 @@
 
 This extension add links to AWS resources in CloudFormation templates.
 
-
 ## Features
 
 Adds a link to the AWS documentation when a `Type` declaration is found.
