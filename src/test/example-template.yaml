@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Description: |
+  Example template to test the AWS Cloudformation Documentation Links extension
+
+Transform: AWS::Serverless-2016-10-31
+
+Resources:
+  ExampleRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Statement:
+          - Action:
+              - sts:AssumeRole
+            Effect: Allow
+            Principal:
+              Service:
+                - lambda.amazonaws.com
+        Version: "2012-10-17"
+
+  # IssueStatus Lambda
+  ExampleJsonRole: { "Type": "AWS::IAM::Role" }
+
+  ExampleServerlessFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: !Sub ${AWS::StackName}-example
