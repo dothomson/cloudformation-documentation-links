@@ -4,6 +4,6 @@ All notable changes to the "cloudformation-documentation-links" extension will b
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [0.0.1] - 2025-12-26
 
 - Initial release

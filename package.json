@@ -4,11 +4,12 @@
   "description": "Provides links to relevant cloudformation documentation in cloudformation templates",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.76.1"
+    "vscode": "^1.107.0"
   },
   "categories": [
     "Other"
   ],
+  "publisher": "dothomson",
   "activationEvents": [
     "onLanguage:yaml",
     "onLanguage:json"
