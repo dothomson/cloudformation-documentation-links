@@ -1,7 +1,7 @@
 {
   "name": "cloudformation-documentation-links",
   "displayName": "CloudFormation Documentation Links",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Provides links to relevant cloudformation documentation directly in cloudformation templates",
   "categories": [
     "Education",

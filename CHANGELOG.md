@@ -4,6 +4,10 @@ All notable changes to the "cloudformation-documentation-links" extension will b
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.4] - 2026-01-02
+
+- Handling single quotes around the resource in yaml files
+
 ## [0.0.3] - 2025-12-26
 
 - Broadening the range of vs code versions the extension works with

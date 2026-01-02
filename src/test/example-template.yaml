@@ -19,8 +19,10 @@ Resources:
                 - lambda.amazonaws.com
         Version: "2012-10-17"
 
-  # IssueStatus Lambda
   ExampleJsonRole: { "Type": "AWS::IAM::Role" }
+
+  ExampleSingleQuoteRole:
+    Type: 'AWS::IAM::Role'
 
   ExampleServerlessFunction:
     Type: AWS::Serverless::Function

@@ -11,7 +11,7 @@ import {
 } from "vscode";
 
 const regexp =
-  /(?<prefix>.*"?Type"?:\s*"?)(?<resource>(?<service_provider>AWS)::(?<service_name>[A-Za-z0-9]+)::(?<data_type_name>[A-Za-z0-9]+))"?/;
+  /(?<prefix>.*["']?Type["']?:\s*["']?)(?<resource>(?<service_provider>AWS)::(?<service_name>[A-Za-z0-9]+)::(?<data_type_name>[A-Za-z0-9]+))["']?/;
 // Matches things of the form:
 // - Type: AWS::Lambda::Function
 // - "Type": "AWS::Lambda::Function"
